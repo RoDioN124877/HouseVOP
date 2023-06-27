@@ -89,6 +89,14 @@ button {
 .header .header__top .nav__meny ul li a {
   color: #fff;
   font-family: "Raleway", sans-serif;
+  display: block;
+  margin: auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+.header .header__top .nav__meny ul li a:hover {
+  border-bottom: 1px solid white;
+  transition: 0.2s;
 }
 
 .header .header__title {
@@ -496,6 +504,12 @@ button {
   margin-left: 25px;
 }
 
+.cta .cta__conteiner .cta__button__conteiner button:hover {
+  transition: 0.2s;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
 .cta .cta__conteiner .cta__button__conteiner input {
   width: 255px;
   height: 50px;
@@ -628,6 +642,12 @@ button {
   background-color: #D4C17F;
   color: #fff;
   margin-left: 25px;
+}
+
+.cta__2 .cta__button__conteiner2 button:hover {
+  transition: 0.2s;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.09);
 }
 
 .cta__2 .cta__button__conteiner2 input {
@@ -1206,9 +1226,17 @@ footer {
   align-items: center;
 }
 
-footer p {
+footer a {
   display: inline;
   color: #D4C17F;
+  border-bottom: 1px solid rgba(255, 0, 0, 0);
+}
+
+footer a:hover {
+  display: inline;
+  color: #D4C17F;
+  border-bottom: 1px solid #D4C17F;
+  transition: 0.2s;
 }
 
 footer ul li {
@@ -1221,6 +1249,11 @@ footer ul li div {
   width: 174px;
   display: flex;
   justify-content: space-between;
+}
+
+footer ul li div a:hover {
+  border-bottom: 1px solid #fff;
+  transition: 0.2s;
 }
 
 @media (max-width: 415px) {

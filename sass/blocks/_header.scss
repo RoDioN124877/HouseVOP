@@ -18,6 +18,14 @@
                     a{
                         color: $wh_color;
                         font-family: $font_mane;
+                        display: block;
+                        margin: auto;
+                        border-bottom: 1px solid rgba(255, 255, 255,0);
+
+                    }
+                    a:hover{
+                        border-bottom: 1px solid rgb(255, 255, 255);
+                        transition: 0.2s;
                     }
                 }
             }
