@@ -1,0 +1,5 @@
+@mixin all_fonts ($wf,$ws,$wl) {
+    font-weight: $wf;
+    font-size: $ws;
+    line-height:$wl;
+}
