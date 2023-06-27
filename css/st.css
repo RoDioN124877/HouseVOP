@@ -119,6 +119,7 @@ button {
 .header .header__footer a {
   color: #fff;
   position: relative;
+  width: 180px;
 }
 
 .header .header__footer .point::before {
